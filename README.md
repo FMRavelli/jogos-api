@@ -1,2 +1,2 @@
-# rpg-mesa-api
+# jogos-api
 jogos-api
