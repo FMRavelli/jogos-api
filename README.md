@@ -47,7 +47,7 @@ go build
 
 2 - No Explorer do SQL Server, clique com o botão direito em *(localdb)\\MSSQLLocalDB* e clique em *Nova Consulta...*, isso fará que abra uma nova tela para configurar o banco.
 
-3 - Rode o script para criaçção do banco, tabelas e os inserts iniciais de dados, o script se encontra na raíz do projeto no arquivo *SQLConfig.sql.*
+3 - Rode o script para criação do banco, tabelas e os inserts iniciais de dados, o script se encontra na raíz do projeto no arquivo *SQLConfig.sql.*
 
 ## API
 
