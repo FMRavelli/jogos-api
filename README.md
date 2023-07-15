@@ -40,6 +40,15 @@ go build
 
 ```
 
+## Configurar LocalDB
+
+
+1 - No menu superior do Visual Studio, vá em *Exibir > Pesquisador de Objetos do SQL Server* para abrir o Explorer do SQL Server.
+
+2 - No Explorer do SQL Server, clique com o botão direito em *(localdb)\\MSSQLLocalDB* e clique em *Nova Consulta...*, isso fará que abra uma nova tela para configurar o banco.
+
+3 - Rode o script para criaçção do banco, tabelas e os inserts iniciais de dados, o script se encontra na raíz do projeto no arquivo *SQLConfig.sql.*
+
 ## API
 
 #### /Generos
