@@ -10,7 +10,7 @@ Demonstração simples de utilização de CRUD usando API REST, consultas e vali
 link: https://github.com/FMRavelli/jogos-api
 # Build e Execução
 cd jogos-api
-go build
+dotnet run
 ./jogos-api
 
 # API Endpoint : https://127.0.0.1:7125
