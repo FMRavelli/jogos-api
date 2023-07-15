@@ -32,6 +32,9 @@ GO
 ALTER TABLE [dbo].[Jogos] ADD  DEFAULT ((1)) FOR [FlAtivo]
 GO
 
+ALTER TABLE [dbo].[Generos] ADD  DEFAULT ((1)) FOR [FlAtivo]
+GO
+
 ALTER TABLE [dbo].[Jogos]  WITH CHECK ADD FOREIGN KEY([IdGenero])
 REFERENCES [dbo].[Generos] ([IdGenero])
 GO
