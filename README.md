@@ -35,7 +35,8 @@ dotnet run
 │		├── GenerosViewModel.cs
 │		└── JogosViewModel.cs
 │	├── appsettings.json
-│	└── Program.cs
+│	├── Program.cs
+│	└── SQLConfig.sql
 
 
 ```
