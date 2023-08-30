@@ -20,12 +20,12 @@ dotnet run
 ```
 │
 ├── DarkLegacy.API
-│   ├── connected Services
-│   ├── Dependências
-│   ├── Properties
+│	├── connected Services
+│	├── Dependências
+│	├── Properties
 │		├── launchsettings.json
 │		└── serviceDependencies.json
-│   ├── Config
+│	├── Config
 │		├── DependencyInjectionConfig.cs
 │		└── MapsterConfig.cs
 │	├── Controllers
@@ -35,6 +35,7 @@ dotnet run
 │		├── GameViewModel.cs
 │		└── GenreViewModel.cs
 │	├── appsettings.json
+│	├── libman.json
 │	└── Program.cs
 │
 ├── DarkLegacy.Core
