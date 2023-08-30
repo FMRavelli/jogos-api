@@ -18,8 +18,6 @@ dotnet run
 
 ## Estrutura
 ```
-├── SQL
-│	└──SQLConfig.sql
 │
 ├── DarkLegacy.API
 │   ├── connected Services
@@ -52,7 +50,9 @@ dotnet run
 │	├── Models
 │		├── Game.cs
 │		└── Genre.cs
-
+│	├── SQL
+│		└──SQLConfig.sql
+│
 ```
 
 ## Configurar LocalDB
