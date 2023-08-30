@@ -5,12 +5,7 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarkLegacy.API", "DarkLegacy.API.csproj", "{C9C74202-58F0-41B8-AD2F-4004CC69F10F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkLegacy.Core", "..\DarkLegacyCore\DarkLegacy.Core.csproj", "{56C7B644-7C5D-4FBE-A829-6BE39CEDE13D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{3935DABF-C130-42D0-80ED-024A3073CEE8}"
-	ProjectSection(SolutionItems) = preProject
-		..\DarkLegacyCore\SQLConfig.sql = ..\DarkLegacyCore\SQLConfig.sql
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarkLegacy.Core", "..\DarkLegacyCore\DarkLegacy.Core.csproj", "{56C7B644-7C5D-4FBE-A829-6BE39CEDE13D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

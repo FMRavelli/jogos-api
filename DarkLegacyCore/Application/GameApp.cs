@@ -41,6 +41,7 @@ namespace DarkLegacy.Core.Application
 
         public void CreateGame(Game game)
         {
+            game.FlEnabled = true;
             _gameRepository.AddGame(game);
         }
 

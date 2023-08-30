@@ -39,6 +39,7 @@ namespace DarkLegacy.Core.Application
 
         public void CreateGenre(Genre genre)
         {
+            genre.FlEnabled = true;
             _genreRepository.AddGenre(genre);
         }
 
