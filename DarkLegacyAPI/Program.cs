@@ -1,4 +1,5 @@
-using DarkLegacyAPI.Data;
+using DarkLegacy.API.Config;
+using DarkLegacy.Core.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,10 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<DarkLegacyContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddDependencyInjection();
+
+builder.Services.RegisterMaps();
 
 var app = builder.Build();
 
