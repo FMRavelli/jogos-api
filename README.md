@@ -18,26 +18,40 @@ dotnet run
 
 ## Estrutura
 ```
-├── DarkLegacyAPI
+├── SQL
+│	└──SQLConfig.sql
+│
+├── DarkLegacy.API
 │   ├── connected Services
 │   ├── Dependências
 │   ├── Properties
 │		├── launchsettings.json
 │		└── serviceDependencies.json
+│   ├── Config
+│		├── DependencyInjectionConfig.cs
+│		└── MapsterConfig.cs
 │	├── Controllers
-│		└── JogosController.cs
-│	├── Data
-│		└── DarkLegacyContext.cs
-│	├── Models
-│		├── Generos.cs
-│		└── Jogos.cs
+│		├── GameController.cs
+│		└── GenreController.cs
 │	├── ViewModel
-│		├── GenerosViewModel.cs
-│		└── JogosViewModel.cs
+│		├── GameViewModel.cs
+│		└── GenreViewModel.cs
 │	├── appsettings.json
-│	├── Program.cs
-│	└── SQLConfig.sql
-
+│	└── Program.cs
+│
+├── DarkLegacy.Core
+│	├── Dependências
+│	├── Application
+│		├── GameApp.cs
+│		└── GenreApp.cs
+│	├── Data
+│		├── Repositories
+│			├── GameRepository.cs
+│			└── GenreRepository.cs
+│		└──DarkLegacyContext.cs
+│	├── Models
+│		├── Game.cs
+│		└── Genre.cs
 
 ```
 
